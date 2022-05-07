@@ -7,6 +7,7 @@ import Saludo from './src/components/Saludo';
 import LoginForm from './src/components/LoginForm';
 import NavigationStack from './src/navigation/NavigationStack';
 import NavigationTab from './src/navigation/NavigationTab';
+import NavigationDrawer from './src/navigation/NavigationDrawer';
 
 export default function App() {
   return (
@@ -20,7 +21,8 @@ export default function App() {
       </View> */}
 
       {/* <NavigationStack /> */}
-      <NavigationTab />
+      {/* <NavigationTab /> */}
+      <NavigationDrawer />
 
     </NavigationContainer>
   );
