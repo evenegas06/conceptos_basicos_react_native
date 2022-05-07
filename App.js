@@ -6,6 +6,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import Saludo from './src/components/Saludo';
 import LoginForm from './src/components/LoginForm';
 import NavigationStack from './src/navigation/NavigationStack';
+import NavigationTab from './src/navigation/NavigationTab';
 
 export default function App() {
   return (
@@ -18,7 +19,8 @@ export default function App() {
         <StatusBar style="auto" />
       </View> */}
 
-      <NavigationStack />
+      {/* <NavigationStack /> */}
+      <NavigationTab />
 
     </NavigationContainer>
   );

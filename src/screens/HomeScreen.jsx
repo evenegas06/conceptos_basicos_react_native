@@ -1,4 +1,5 @@
 import { View, Text, Button } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import React from 'react';
 
 const HomeScreen = (props) => {
@@ -11,7 +12,8 @@ const HomeScreen = (props) => {
     };
 
     return (
-        <View>
+        <SafeAreaView>
+            <Text>jajajajajajajajajajaj</Text>
             <Text>Estamos en HomeScreen</Text>
             <Text>Estamos en HomeScreen</Text>
             <Text>Estamos en HomeScreen</Text>
@@ -20,7 +22,7 @@ const HomeScreen = (props) => {
             <Text>Estamos en HomeScreen</Text>
             <Text>Estamos en HomeScreen</Text>
             <Button title='Ir a ajustes' onPress={goToSettings}/>
-        </View>
+        </SafeAreaView>
     );
 };
 

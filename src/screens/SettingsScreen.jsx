@@ -1,4 +1,5 @@
 import { View, Text, Button } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import React from 'react';
 
 const SettingsScreen = (props) => {
@@ -10,7 +11,7 @@ const SettingsScreen = (props) => {
     };
 
     return (
-        <View>
+        <SafeAreaView>
             <Text>Estamos en SettingsScreen</Text>
             <Text>Estamos en SettingsScreen</Text>
             <Text>Estamos en SettingsScreen</Text>
@@ -23,7 +24,7 @@ const SettingsScreen = (props) => {
             es necesario utilizar un arrow function... de lo contrario se ejecuta solo cuando 
             el componente se monta  */}
             <Button title='Ir a Home' onPress={() => goToPage("Home")} />
-        </View>
+        </SafeAreaView>
     );
 };
 
